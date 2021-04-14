@@ -5,7 +5,7 @@ from . import PACKAGEDIR
 
 __all__ = ['taylorswift']
 
-def taylorswift():
+def taylorswiftGUI():
 	data=[]
 
 	with open(os.path.join(PACKAGEDIR,'Grades.csv'),'rt') as f:

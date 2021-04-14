@@ -1,4 +1,4 @@
-#!/usr/bin/env python  
+#!/usr/bin/env python3  
 # -*- coding: utf-8 -*-
 
 from __future__ import division, print_function
@@ -7,28 +7,27 @@ import os
 import sys
 from setuptools import setup
 
-sys.path.insert(0, "taylorswift")
-from version import __version__
+sys.path.insert(0, "taylorswiftGUI")
 
 
 long_description = \
     """
-taylorswift is a python package that will find you the perfect Taylor Swift song
-to match your mood.
+taylorswiftGUI is a gui for the taylorswift library, 
+which helps you find the perfect taylor swift song.
 
 """
 
 
-setup(name='taylorswift',
-      version=__version__,
-      description='Find the perfect Taylor Swift song to match your mood',
-      packages=['taylorswift'],
-      install_requires=['numpy'],
-      author='Megan Mansfield',
-      author_email='meganmansfield@uchicago.edu',
+setup(name='taylorswiftGUI',
+      version=0.1,
+      description='GUI for the famed taylorswift() function',
+      packages=['taylorswiftGUI'],
+      install_requires=['numpy' 'tkinter' 'taylorswift'],
+      author='elliot',
+      author_email='b.elliotsmith42@gmail.com',
       license='MIT',
       long_description = long_description,
-      url='https://github.com/meganmansfield/taylorswift',
+      url='https://github.com/Sharpest-Marble/taylorswift',
       package_data={'': ['README.md', 'LICENSE']},
       include_package_data=True,
       classifiers=[
@@ -36,6 +35,6 @@ setup(name='taylorswift',
         'Intended Audience :: Science/Research',
         'License :: OSI Approved :: MIT License',
         'Operating System :: OS Independent',
-        'Programming Language :: Python :: 3.0',
+        'Programming Language :: Python :: 3.8',
         ],
       )

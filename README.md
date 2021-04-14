@@ -1,6 +1,6 @@
 # taylorswiftGUI
 
-A package for matching your current mood and relationship status to a suitable Taylor Swift song.
+A package for giving a gui to the taylorswift library
 
 # Requirements:
 
