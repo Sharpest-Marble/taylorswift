@@ -4,7 +4,7 @@ A package for matching your current mood and relationship status to a suitable T
 
 # Requirements:
 
-Python 3, tkinter (included in python3), and the numpy package (which comes with most standard python downloads).
+Python 3, taylorswift, tkinter, and the numpy package (tkinter and numpy come with most standard python downloads).
 
 # Instructions:
 
