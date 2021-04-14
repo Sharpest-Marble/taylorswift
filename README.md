@@ -4,17 +4,17 @@ A package for matching your current mood and relationship status to a suitable T
 
 # Requirements:
 
-Python 2 or 3, and the numpy package (which comes with most standard python downloads). That's it!
+Python 3, tkinter (included in python3), and the numpy package (which comes with most standard python downloads).
 
 # Instructions:
 
 Download from GitHub, or use pip:
 
-	pip install taylorswift
+	pip install taylorswift2
 
 After downloading, type the following into the command line:
 
-      python
+      python3
 
       from taylorswift import *
 
