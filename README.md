@@ -10,15 +10,15 @@ Python 3, tkinter (included in python3), and the numpy package (which comes with
 
 Download from GitHub, or use pip:
 
-	pip install taylorswift2
+	pip install taylorswiftGUI
 
 After downloading, type the following into the command line:
 
       python3
 
-      from taylorswift import *
+      from taylorswiftGUI import *
 
-      taylorswift()
+      taylorswiftGUI()
 
 And that's it! Answer the questions and you'll see a list of the top five songs which match your current mood and relationship status.
 
