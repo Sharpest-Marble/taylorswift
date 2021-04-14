@@ -22,4 +22,4 @@ After downloading, type the following into the command line:
 
 And that's it! Answer the questions and you'll see a list of the top five songs which match your current mood and relationship status.
 
-The included Jupyter notebook shows a complete example.
+The included Jupyter notebook shows a complete example. (from the original taylorswift library)
