@@ -7,6 +7,8 @@ import os
 import sys
 from setuptools import setup
 
+__version__ = "0.1.2"
+
 sys.path.insert(0, "taylorswiftGUI")
 
 
@@ -19,10 +21,10 @@ which helps you find the perfect taylor swift song.
 
 
 setup(name='taylorswiftGUI',
-      version=0.1,
+      version=__version__,
       description='GUI for the famed taylorswift() function',
       packages=['taylorswiftGUI'],
-      install_requires=['numpy' 'tkinter' 'taylorswift'],
+      install_requires=['numpy', 'taylorswift'],
       author='elliot',
       author_email='b.elliotsmith42@gmail.com',
       license='MIT',
@@ -35,6 +37,6 @@ setup(name='taylorswiftGUI',
         'Intended Audience :: Science/Research',
         'License :: OSI Approved :: MIT License',
         'Operating System :: OS Independent',
-        'Programming Language :: Python :: 3.8',
+        'Programming Language :: Python :: 3',
         ],
       )

@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: taylorswiftGUI
+Version: 0.1.2
+Summary: GUI for the famed taylorswift() function
+Home-page: https://github.com/Sharpest-Marble/taylorswift
+Author: elliot
+Author-email: b.elliotsmith42@gmail.com
+License: MIT
+Description: 
+        taylorswiftGUI is a gui for the taylorswift library, 
+        which helps you find the perfect taylor swift song.
+        
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3

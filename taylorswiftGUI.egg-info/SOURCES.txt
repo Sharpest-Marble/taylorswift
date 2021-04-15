@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+taylorswiftGUI/__init__.py
+taylorswiftGUI/gui.py
+taylorswiftGUI/main.py
+taylorswiftGUI.egg-info/PKG-INFO
+taylorswiftGUI.egg-info/SOURCES.txt
+taylorswiftGUI.egg-info/dependency_links.txt
+taylorswiftGUI.egg-info/requires.txt
+taylorswiftGUI.egg-info/top_level.txt
