@@ -1,8 +1,11 @@
-from taylorswift import PACKAGEDIR as taypackagedir
-import numpy as np
-from tkinter import *
+import csv
+import os
+from tkinter import Tk,IntVar,N,W,E,S
 from tkinter import ttk
-import csv, os
+
+import numpy as np
+from taylorswift import PACKAGEDIR as taypackagedir
+
 
 class taylorswiftGUI:
 	def __init__(self):
@@ -162,7 +165,7 @@ class taylorswiftGUI:
 		
 		# seems to be the total distance from answer to song, or net error
 		neterr=np.zeros(self.numsongs)
-		for i in range(0,self.numsongs):
+		for _ in range(0,self.numsongs):
 			neterr=selferr**2.+stageserr**2.+seriouserr**2.+futureerr**2.+maleerr**2.+togethererr**2.
 		
 		# list of songs where the error is between zero and 40, in order of error
@@ -188,11 +191,8 @@ class taylorswiftGUI:
 	# basically the original version but this time it's in an oop format
 	def print_test(self):
 		self.ask_questions()
-		self.ask_happiness()
 		self.calculate_song()
 		self.list_songs()
-
-
 
 	# actually displays the gui
 	def display_framework_gui(self):
