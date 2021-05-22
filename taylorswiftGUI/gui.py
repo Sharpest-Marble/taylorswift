@@ -113,7 +113,13 @@ class taylorswiftGUI:
 		]
 		]
 
-		# # prolly gonna need to scrap this whole thing
+		# functionality from original library
+		for (i,question) in enumerate(answers):
+			print(question)
+			self.relhap[i] = int(input("enter a number from 1-7 representing your mood: "))-4
+			
+
+		# prolly gonna need to scrap this whole thing
 
 		# label_make = lambda iter: [ttk.Label(self.root) for i in range(iter)]
 		# label_grider = lambda label,iter: [label[j].grid(column=0,row=1+j*2,sticky='we') for j in range(iter)]
@@ -140,16 +146,10 @@ class taylorswiftGUI:
 		# answer_labels = [answer_label_gen(i) for i in range(7)]
 		# print(answer_labels[0])
 		# def update_lbl(val):
-			# print(int(val))
-			# answer_labels[i]['text'] = answers[i][int(self.relhap[i])]
+		# 	print(int(val))
+		# 	answer_labels[i]['text'] = answers[i][int(self.relhap[i])]
 		
-		# self.rel[0] = int(q1)
-		# self.rel[0] = int(input("enter a number from 1-7: "))-4
-		# self.rel[1] = int(input("enter a number from 1-7: "))-4
-		# self.rel[2] = int(input("enter a number from 1-7: "))-4
-		# self.rel[3] = int(input("enter a number from 1-7: "))-4
-		# self.hap[0] = int(input("enter a number from 1-7:"))-4
-		# self.hap[1] = int(input("enter a number from 1-7:"))-4
+
 
 	# calculates the perfect song based on the prior answers
 	def calculate_song(self):
